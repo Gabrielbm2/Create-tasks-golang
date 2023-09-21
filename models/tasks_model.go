@@ -16,6 +16,7 @@ type Task struct {
 }
 
 type TaskPayload struct {
+	ID   string `json:"id"`
 	Name string `json:"name"`
 	Date string `json:"date"`
 	Time string `json:"time"`
